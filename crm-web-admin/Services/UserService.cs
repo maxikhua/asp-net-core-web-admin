@@ -33,7 +33,7 @@ namespace Services
         /// <exception cref="NotImplementedException"></exception>
         public bool Create(UserDto thatUser)
         {
-            return _userRepository.Create(new User()) ? true : false;
+            return _userRepository.Create(new User());
         }
 
         /// <summary>
@@ -44,7 +44,7 @@ namespace Services
         /// <exception cref="NotImplementedException"></exception>
         public bool Update(UserDto thatUser)
         {
-            return _userRepository.Update(new User()) ? true : false;
+            return _userRepository.Update(new User());
         }
 
         /// <summary>
@@ -55,7 +55,7 @@ namespace Services
         /// <exception cref="NotImplementedException"></exception>
         public bool Delete(UserDto thatUser)
         {
-            return _userRepository.Delete(new User()) ? true : false;
+            return _userRepository.Delete(new User());
         }
 
         /// <summary>
@@ -66,7 +66,7 @@ namespace Services
         /// <exception cref="NotImplementedException"></exception>
         public UserDto GetById(Guid thatId)
         {
-//            return _userRepository.GetById();
+            return _userRepository.GetById();
         }
 
         /// <summary>
