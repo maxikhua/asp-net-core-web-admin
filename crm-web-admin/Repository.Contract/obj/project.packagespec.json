@@ -14,7 +14,11 @@
     ],
     "frameworks": {
       "netstandard2.0": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Entity/Entity.csproj": {
+            "projectPath": "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Entity/Entity.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

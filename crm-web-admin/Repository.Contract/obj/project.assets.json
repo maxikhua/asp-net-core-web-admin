@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entity.dll": {}
+        }
       }
     }
   },
@@ -171,10 +181,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Entity/1.0.0": {
+      "type": "project",
+      "path": "../Entity/Entity.csproj",
+      "msbuildProject": "../Entity/Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Entity >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -205,7 +221,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Entity/Entity.csproj": {
+              "projectPath": "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Entity/Entity.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -14,7 +14,14 @@
     ],
     "frameworks": {
       "netstandard2.0": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Repository.Contract/Repository.Contract.csproj": {
+            "projectPath": "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Repository.Contract/Repository.Contract.csproj"
+          },
+          "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Service.Contract/Service.Contract.csproj": {
+            "projectPath": "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Service.Contract/Service.Contract.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

@@ -5,4 +5,8 @@
         <RootNamespace>Services.Contracts</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Dtos\Dtos.csproj" />
+    </ItemGroup>
+
 </Project>

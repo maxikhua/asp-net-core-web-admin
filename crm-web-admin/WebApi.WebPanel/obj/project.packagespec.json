@@ -14,7 +14,14 @@
     ],
     "frameworks": {
       "netcoreapp2.2": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Dtos/Dtos.csproj": {
+            "projectPath": "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Dtos/Dtos.csproj"
+          },
+          "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Service.Contract/Service.Contract.csproj": {
+            "projectPath": "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Service.Contract/Service.Contract.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

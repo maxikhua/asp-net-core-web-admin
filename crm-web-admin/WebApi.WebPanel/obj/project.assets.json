@@ -4438,6 +4438,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Dtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Dtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dtos.dll": {}
+        }
+      },
+      "Service.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Dtos": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Service.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Service.Contract.dll": {}
+        }
       }
     }
   },
@@ -12062,13 +12085,25 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Dtos/1.0.0": {
+      "type": "project",
+      "path": "../Dtos/Dtos.csproj",
+      "msbuildProject": "../Dtos/Dtos.csproj"
+    },
+    "Service.Contract/1.0.0": {
+      "type": "project",
+      "path": "../Service.Contract/Service.Contract.csproj",
+      "msbuildProject": "../Service.Contract/Service.Contract.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Dtos >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "Service.Contract >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12098,7 +12133,14 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Dtos/Dtos.csproj": {
+              "projectPath": "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Dtos/Dtos.csproj"
+            },
+            "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Service.Contract/Service.Contract.csproj": {
+              "projectPath": "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Service.Contract/Service.Contract.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
