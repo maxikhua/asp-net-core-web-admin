@@ -1,4 +1,5 @@
 ﻿using System;
+using AutoMapper;
 using Dtos;
 using Models;
 using Repositories.Contracts;
@@ -6,77 +7,41 @@ using Services.Contracts;
 
 namespace Services
 {
-    /// <summary>
-    /// 
-    /// </summary>
     public class UserService : IUserService
     {
-        /// <summary>
-        /// 
-        /// </summary>
         private readonly IUserRepository _userRepository;
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="userRepository"></param>
-        public UserService(IUserRepository userRepository)
+        private readonly IMapper _mapper;
+
+        public UserService(IUserRepository userRepository, IMapper mapper)
         {
             _userRepository = userRepository;
+            _mapper = mapper;
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="thatUser"></param>
-        /// <returns></returns>
-        /// <exception cref="NotImplementedException"></exception>
         public bool Create(UserDto thatUser)
         {
             return _userRepository.Create(new User());
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="thatUser"></param>
-        /// <returns></returns>
-        /// <exception cref="NotImplementedException"></exception>
         public bool Update(UserDto thatUser)
         {
             return _userRepository.Update(new User());
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="thatUser"></param>
-        /// <returns></returns>
-        /// <exception cref="NotImplementedException"></exception>
         public bool Delete(UserDto thatUser)
         {
             return _userRepository.Delete(new User());
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="thatId"></param>
-        /// <returns></returns>
-        /// <exception cref="NotImplementedException"></exception>
         public UserDto GetById(Guid thatId)
         {
-            return _userRepository.GetById();
+            return _mapper.Map<UserDto>(_userRepository.GetById(thatId));
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        /// <exception cref="NotImplementedException"></exception>
         public UserDto[] GetAll()
         {
-//            return _userRepository.GetAll();
+            return _mapper.Map<UserDto[]>(_userRepository.GetAll());
         }
     }
 }

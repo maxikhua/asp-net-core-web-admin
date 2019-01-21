@@ -20,6 +20,9 @@
           },
           "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Service.Contract/Service.Contract.csproj": {
             "projectPath": "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Service.Contract/Service.Contract.csproj"
+          },
+          "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Services/Services.csproj": {
+            "projectPath": "/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/Services/Services.csproj"
           }
         }
       }
@@ -33,6 +36,10 @@
   "frameworks": {
     "netcoreapp2.2": {
       "dependencies": {
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[8.0.0, )"
+        },
         "Microsoft.AspNetCore.App": {
           "suppressParent": "All",
           "target": "Package",
