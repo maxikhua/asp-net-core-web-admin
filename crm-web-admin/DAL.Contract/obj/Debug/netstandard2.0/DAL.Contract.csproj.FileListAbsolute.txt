@@ -1,0 +1,8 @@
+/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/DAL.Contract/bin/Debug/netstandard2.0/DAL.Contract.deps.json
+/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/DAL.Contract/bin/Debug/netstandard2.0/DAL.Contract.dll
+/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/DAL.Contract/bin/Debug/netstandard2.0/DAL.Contract.pdb
+/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/DAL.Contract/obj/Debug/netstandard2.0/DAL.Contract.csproj.CoreCompileInputs.cache
+/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/DAL.Contract/obj/Debug/netstandard2.0/DAL.Contract.AssemblyInfoInputs.cache
+/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/DAL.Contract/obj/Debug/netstandard2.0/DAL.Contract.AssemblyInfo.cs
+/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/DAL.Contract/obj/Debug/netstandard2.0/DAL.Contract.dll
+/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/DAL.Contract/obj/Debug/netstandard2.0/DAL.Contract.pdb
