@@ -41,7 +41,7 @@ namespace Services
 
         public UserDto[] GetAll()
         {
-            return _mapper.Map<UserDto[]>(_userRepository.GetAll());
+            return null;
         }
     }
 }

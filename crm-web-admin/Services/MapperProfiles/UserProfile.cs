@@ -9,7 +9,6 @@ namespace Services.MapperProfiles
         public UserProfile()
         {
             CreateMap<User, UserDto>().ReverseMap();
-            CreateMap<User[], UserDto[]>().ReverseMap();
         }
     }
 }

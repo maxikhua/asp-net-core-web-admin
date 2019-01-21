@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Services.MapperProfiles;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace crm_web_admin
 {
@@ -21,11 +22,19 @@ namespace crm_web_admin
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            var mappingConfig = new MapperConfiguration(mc =>
+            services.AddSwaggerGen(c =>
             {
-                mc.AddProfile(new UserProfile());
+                c.SwaggerDoc("v1", new Info
+                {
+                    Version = "v1",
+                    Title = "Web Api",
+                    Description = "Web Panel Application",
+                    TermsOfService = "None",
+                });
             });
-            
+
+            var mappingConfig = new MapperConfiguration(mc => { mc.AddProfile(new UserProfile()); });
+
             services.AddSingleton(mappingConfig.CreateMapper());
         }
 
@@ -37,6 +46,8 @@ namespace crm_web_admin
             }
 
             app.UseMvc();
+            app.UseSwagger();
+            app.UseSwaggerUI(options => { options.SwaggerEndpoint("/swagger/v1/swagger.json", "Web Api v1"); });
         }
     }
 }
