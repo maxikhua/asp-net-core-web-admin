@@ -1,9 +1,0 @@
-/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/DAL/bin/Debug/netstandard2.0/DAL.deps.json
-/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/DAL/bin/Debug/netstandard2.0/DAL.dll
-/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/DAL/bin/Debug/netstandard2.0/DAL.pdb
-/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/DAL/obj/Debug/netstandard2.0/DAL.csprojAssemblyReference.cache
-/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/DAL/obj/Debug/netstandard2.0/DAL.csproj.CoreCompileInputs.cache
-/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/DAL/obj/Debug/netstandard2.0/DAL.AssemblyInfoInputs.cache
-/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/DAL/obj/Debug/netstandard2.0/DAL.AssemblyInfo.cs
-/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/DAL/obj/Debug/netstandard2.0/DAL.dll
-/home/user/RiderProjects/asp-net-core-web-admin/crm-web-admin/DAL/obj/Debug/netstandard2.0/DAL.pdb
