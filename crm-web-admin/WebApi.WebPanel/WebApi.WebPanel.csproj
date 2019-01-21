@@ -15,7 +15,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Dtos\Dtos.csproj" />
-      <ProjectReference Include="..\Service.Contract\Service.Contract.csproj" />
+      <ProjectReference Include="..\Services.Contract\Services.Contract.csproj" />
       <ProjectReference Include="..\Services\Services.csproj" />
     </ItemGroup>
 

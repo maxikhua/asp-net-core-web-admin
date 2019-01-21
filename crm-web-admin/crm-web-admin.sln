@@ -2,15 +2,15 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.WebPanel", "WebApi.WebPanel\WebApi.WebPanel.csproj", "{B9FBCC3E-6F25-45FA-86CF-75DC290EC822}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{8186C683-D195-4938-9480-9BFEBA48B920}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{8186C683-D195-4938-9480-9BFEBA48B920}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{38D9BF66-43E8-4104-843A-21086EB01FF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{2007DE49-20E5-4CC7-A98B-CFEE0ED6CE06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{2007DE49-20E5-4CC7-A98B-CFEE0ED6CE06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Contract", "Service.Contract\Service.Contract.csproj", "{745FE0C2-7303-4DB3-AACD-77322F8F6B45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Contract", "Services.Contract\Services.Contract.csproj", "{745FE0C2-7303-4DB3-AACD-77322F8F6B45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Contract", "Repository.Contract\Repository.Contract.csproj", "{C5C5BFAB-372A-454C-BD39-722BC3E359D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories.Contract", "Repositories.Contract\Repositories.Contract.csproj", "{C5C5BFAB-372A-454C-BD39-722BC3E359D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dtos", "Dtos\Dtos.csproj", "{AFD2D87F-94AB-42E8-9608-BF8DC5EB9BFC}"
 EndProject

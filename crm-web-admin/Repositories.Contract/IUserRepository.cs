@@ -10,7 +10,6 @@ namespace Repositories.Contracts
 
         bool Update(User thatUser);
 
-
         bool Delete(User thatUser);
 
         User GetById(Guid thatId);
